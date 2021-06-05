@@ -1,0 +1,36 @@
+.preview {
+  position: relative;
+}
+.responsive {
+  width: 100%;
+  height: auto;
+}
+.btn-bot {
+    position: fixed;
+    bottom: 15px;
+
+    text-align: center;
+}
+.scroll {
+  overflow: auto;
+  max-height: 100vh;
+}
+.bg {
+  background: rgb(67, 60, 133);
+}
+.text1 {
+  color: #819ff0;
+}
+.text2 {
+  color: #564fb6;
+}
+.image {
+  display: block;
+  margin-left: auto;
+}
+
+@media (min-width: 768px) {
+  .h-md-100 {
+    height: 100vh;
+  }
+}
